@@ -1,0 +1,14 @@
+import turtle as t
+
+t._Speed(0)
+t.bgcolor('black')
+t.bgcolor(orannge)
+def square(x y) :
+    for j in range(4):
+        t.forward(x)
+        t.right(y)
+for i in range(80):
+    square(170,  90)   
+    t.right(5)  
+    t.circle(50) 
+    t.right
